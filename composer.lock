@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dfa398c758865e99811b08fbde241d78",
+    "packages": [
+        {
+            "name": "icetee/mnb-exchange-rate",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/icetee/mnb-exchange-rate.git",
+                "reference": "68a838083c5864305d004f37059454a9201cab18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/icetee/mnb-exchange-rate/zipball/68a838083c5864305d004f37059454a9201cab18",
+                "reference": "68a838083c5864305d004f37059454a9201cab18",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Icetee\\MNB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tamás András Horváth",
+                    "email": "htomy92@gmail.com"
+                }
+            ],
+            "description": "Minimal SOAP API wrapper for get exchanges rate from MNB",
+            "time": "2018-10-26T19:16:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

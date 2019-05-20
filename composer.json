@@ -1,0 +1,5 @@
+{
+    "require": {
+        "icetee/mnb-exchange-rate": "^2.0"
+    }
+}
