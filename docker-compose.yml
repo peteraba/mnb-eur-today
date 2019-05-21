@@ -5,3 +5,8 @@ services:
     volumes:
       - .:/website
     working_dir: /website
+    restart: always
+    ports:
+      - "8023:8023"
+    command: php -S 0.0.0.0:8023
+
