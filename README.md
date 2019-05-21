@@ -14,8 +14,14 @@ Using [MNB - Exchange Rate library](https://github.com/icetee/mnb-exchange-rate)
 
 ### How can I run this?
 
+There are multiple ways to run this project, but the simplest is probably by using the docker compose file provided here.
+
 1. Create a simple `.env` file containing a line with an `MNB_PASSWORD` variable
 2. Start up the docker images with `docker-compose up -d`
+3. Log into the php container with `docker-composer exec php sh`
+4. [Install composer](https://getcomposer.org/download/)
+5. Install dependencies by executing `./composer.phar install`
+6. Exit the docker container with `exit`
 
 ### Examples
 

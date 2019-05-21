@@ -11,4 +11,3 @@ services:
     command: php -S 0.0.0.0:8023
     env_file:
       - .env
-
