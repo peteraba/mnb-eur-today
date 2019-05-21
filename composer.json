@@ -1,5 +1,6 @@
 {
     "require": {
-        "icetee/mnb-exchange-rate": "^2.0"
+        "icetee/mnb-exchange-rate": "^2.0",
+        "slim/slim": "^3.12"
     }
 }
